@@ -4,6 +4,7 @@ public class MainClass
 	public static void main(String[] args) {
 		System.out.println("Executing from ant");
 		Person person = new Person();
+		person.setPersonId(007);
 		person.setFirstName("Amit");
 		person.setLastName("Bhoraniya");
 
